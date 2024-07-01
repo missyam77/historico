@@ -21,7 +21,7 @@ def load_data(file_path):
         return pd.DataFrame()
 
 # Carregar os dados
-file_path = './Datasetsisap/historico.xlsx'
+file_path = 'historico.xlsx'
 df = load_data(file_path)
 
 # Verificar se o dataframe não está vazio
