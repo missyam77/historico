@@ -51,7 +51,7 @@ if not df.empty:
     with col2:
         st.metric(label="Bens Inventariados", value=bens_inventariados_2023)
     with col3:
-        st.metric(label="Percentual 2023", value=f"{percentual_2023:.2f}%")
+        st.metric(label="Percentual", value=f"{percentual_2023:.2f}%")
 
     # Configuração do tema e estilo do gráfico
     alt.themes.enable('fivethirtyeight')  # Aplicar um tema mais moderno (opcional)
